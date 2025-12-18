@@ -129,7 +129,6 @@ nav {
 
 
 /* HERO */
-/* HERO */
 .hero {
   display: grid;
   grid-template-columns: 60px 1fr 1fr 60px;
@@ -138,19 +137,6 @@ nav {
   margin: auto;
   padding-top: 40px;
   column-gap: 4rem;
-}
-
-/* توزيع الأعمدة */
-.hero .side-info {
-  grid-column: 1;   /* الشريط الجانبي في العمود الأول */
-}
-
-.hero .content {
-  grid-column: 2;   /* النص في العمود الثاني (يسار) */
-}
-
-.hero .header__image {
-  grid-column: 3;   /* صورة العطر في العمود الثالث (يمين) */
 }
 
 
@@ -1225,4 +1211,5 @@ footer .footer-bottom {
     padding-right: 1.3rem;
   }
 }
+
 
