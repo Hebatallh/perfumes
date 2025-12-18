@@ -1,0 +1,77 @@
+<body style="padding:40px; background:#fdeff1;">
+  <h1>My Cart</h1>
+  <div id="cart-container"></div>
+
+  <script>
+    function getCart() {
+      return JSON.parse(localStorage.getItem('cartItems')) || [];
+    }
+
+    function saveCart(cart) {
+      localStorage.setItem('cartItems', JSON.stringify(cart));
+    }
+
+    function renderCart() {
+      const container = document.getElementById('cart-container');
+      const cart = getCart();
+
+      if (!cart.length) {
+        container.innerHTML = "<p>Your cart is empty.</p>";
+        return;
+      }
+
+      let html = `
+        <table border="1" cellpadding="8" cellspacing="0">
+          <tr>
+            <th>Product</th>
+            <th>Size</th>
+            <th>Qty</th>
+            <th>Price</th>
+            <th>Remove</th>
+          </tr>
+      `;
+
+      cart.forEach(item => {
+        html += `
+          <tr>
+            <td>${item.name}</td>
+            <td>${item.size}</td>
+            <td>${item.qty}</td>
+            <td>${item.price}</td>
+            <td>
+              <button class="remove-btn" data-id="${item.id}">X</button>
+            </td>
+          </tr>
+        `;
+      });
+
+      html += `</table>
+        <br>
+        <button id="clear-cart">Clear All</button>
+      `;
+
+      container.innerHTML = html;
+
+      // ربط أزرار الحذف
+      document.querySelectorAll('.remove-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.dataset.id;
+          let cart = getCart().filter(item => item.id !== id);
+          saveCart(cart);
+          renderCart();
+        });
+      });
+
+      // زر حذف كل السلة
+      document.getElementById('clear-cart').addEventListener('click', () => {
+        if (confirm('Are you sure you want to clear the cart?')) {
+          saveCart([]);
+          renderCart();
+        }
+      });
+    }
+
+    // أول مرة تحميل
+    renderCart();
+  </script>
+</body>

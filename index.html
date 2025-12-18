@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fragrance Store</title>
+
+  <!-- ===== CSS LINK ===== -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ===== REMIX ICONS ===== -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav>
+    <div class="nav__logo">
+      <a href="#home">Fragrance<span>Store.</span></a>
+    </div>
+
+    <ul class="nav__links">
+      <li><a href="#home" data-text="Home">Home</a></li>
+      <li><a href="#collections" data-text="Collections">Collections</a></li>
+      <li><a href="#contact" data-text="Contact">Contact</a></li>
+    </ul>
+
+    <div class="nav__btns">
+      <a href="cart.html"><i class="ri-shopping-bag-line"></i></a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="side-info">
+      <div class="line"></div>
+      <span>Developed by Ayat</span>
+    </div>
+
+    <div class="content">
+      <h5>Discover our</h5>
+      <h1>Luxury Perfumes</h1>
+      <h3>For Men & Women</h3>
+
+      <div class="size">
+        <img src="images/icon.png" class="parfume-icon" alt="">
+        <button>50 ML</button>
+        <button class="active">100 ML</button>
+        <button>150 ML</button>
+      </div>
+
+      <button class="btn" type="button">$ 125 | ADD TO CART</button>
+
+      <div class="footer-bar">
+        <div class="footer-left">
+          <span class="current">01</span>
+          <span class="slash">/</span>
+          <span class="total">15</span>
+        </div>
+
+        <div class="footer-right">
+          <div class="favorites">
+            <i class="ri-heart-3-line"></i>
+          </div>
+          <div class="underline"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__image">
+      <img src="images/perfume.png" class="main-img" alt="">
+      <img src="images/flower.png" class="bg-img" alt="">
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-us">
+    <h2 class="section-title">Why Choose Fragrance Store?</h2>
+    <p class="why-subtitle">
+      We carefully select each perfume to bring you luxury quality, beautiful scents, and an unforgettable experience.
+    </p>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <i class="ri-vip-crown-line"></i>
+        <h3>Luxury Quality</h3>
+        <p>High-end fragrances inspired by top designer brands.</p>
+      </div>
+
+      <div class="why-card">
+        <i class="ri-leaf-line"></i>
+        <h3>Long-Lasting Scents</h3>
+        <p>Formulas that stay with you from day to night.</p>
+      </div>
+
+      <div class="why-card">
+        <i class="ri-gift-line"></i>
+        <h3>Perfect for Gifts</h3>
+        <p>Elegant packaging that makes every perfume gift-ready.</p>
+      </div>
+
+      <div class="why-card">
+        <i class="ri-truck-line"></i>
+        <h3>Fast Delivery</h3>
+        <p>Quick and reliable delivery to your door.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BEST SELLER ===== -->
+  <section class="best-seller">
+    <div class="best-container">
+      <div class="best-image">
+        <img src="images/bda9d74b-ead4-47f5-99f9-97bd5c5e800c.png" alt="Libre Intense">
+      </div>
+      <div class="best-info">
+        <span class="badge">Best Seller</span>
+        <h2>Libre Intense</h2>
+
+        <p class="best-desc">
+          A bold and sensual fragrance that blends warm florals with deep amber notes.
+          It delivers a powerful, long-lasting scent perfect for confident evenings out.
+        </p>
+
+        <p class="best-notes">
+          <strong>Notes:</strong> Lavender • Orange Blossom • Amber • Vanilla
+        </p>
+
+        <p class="best-price"><strong>price:</strong> 124.81$ </p>
+        <p class="best-size"><strong>size:</strong>90 ML</p>
+
+        <div class="best-actions">
+          <button
+            class="btn best-add-btn"
+            type="button"
+            data-id="libre"
+            data-name="Libre Intense"
+            data-price="124.81$"
+            data-img="images/bda9d74b-ead4-47f5-99f9-97bd5c5e800c.png"
+            data-size="90 ML"
+          >
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OFFERS BANNER ===== -->
+  <section class="offers-banner">
+    <div class="offer-item">
+      <i class="ri-truck-line"></i>
+      <div>
+        <h3>Free Delivery</h3>
+        <p>On orders above 150 LYD.</p>
+      </div>
+    </div>
+    <div class="offer-item">
+      <i class="ri-shield-check-line"></i>
+      <div>
+        <h3>Original Quality</h3>
+        <p>Trusted and tested fragrances.</p>
+      </div>
+    </div>
+    <div class="offer-item">
+      <i class="ri-gift-line"></i>
+      <div>
+        <h3>Gift Wrapping</h3>
+        <p>Available for all perfumes.</p>
+      </div>
+    </div>
+    <div class="offer-item">
+      <i class="ri-cash-line"></i>
+      <div>
+        <h3>Cash on Delivery</h3>
+        <p>Pay when your order arrives.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <p class="testi-subtitle">Real feedback from people who fell in love with our scents.</p>
+
+    <div class="testi-grid">
+      <div class="testi-card">
+        <p class="testi-text">
+          “The scent is so elegant and lasts all day. This has become my signature perfume.”
+        </p>
+        <div class="testi-user">
+          <span class="testi-name">Sara A.</span>
+          <span class="testi-stars">★★★★★</span>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <p class="testi-text">
+          “Fast delivery and beautiful packaging. It felt like unboxing a luxury gift.”
+        </p>
+        <div class="testi-user">
+          <span class="testi-name">Omar M.</span>
+          <span class="testi-stars">★★★</span>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <p class="testi-text">
+          “I ordered Night Bloom and it’s perfect for evening outings. I got a lot of compliments!”
+        </p>
+        <div class="testi-user">
+          <span class="testi-name">Lina K.</span>
+          <span class="testi-stars">★★★★</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COLLECTIONS ===== -->
+  <section class="collections-page-header" id="collections">
+    <h2 class="section-title">Our Collections</h2>
+    <p>Explore our curated selection of perfumes for women, men and oriental lovers.</p>
+  </section>
+
+  <section class="collections">
+    <div class="filter-buttons">
+      <button class="active" data-category="all">All</button>
+      <button data-category="women">Women</button>
+      <button data-category="men">Men</button>
+      <button data-category="hair mist">Hair mist</button>
+    </div>
+
+    <div class="products-container">
+
+      <!-- 1. Good girls -->
+      <article class="product-card"
+               data-id="p1"
+               data-category="women"
+               data-name="Good girls"
+               data-size="80 ML"
+               data-type="Floral • Warm"
+               data-notes="Lavender • Orange Blossom • Vanilla"
+               data-price="116.90$"
+               data-img="images/51NMHzKO6XL._SL1000_.jpg"
+               data-desc="A bold, sensual floral scent with warm amber notes, perfect for confident evenings.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/51NMHzKO6XL._SL1000_.jpg" alt="Good girls">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Good girls</h4>
+            <p class="product-meta">80 ML • Floral • Warm</p>
+            <p class="product-notes"><strong>Notes:</strong> Lavender • Orange Blossom • Vanilla</p>
+            <p class="product-desc">
+              A bold, sensual floral scent with warm amber notes, perfect for confident evenings.
+            </p>
+            <p class="product-price">116.90$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p1">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2. Nautica Voyage -->
+      <article class="product-card"
+               data-id="p2"
+               data-category="women"
+               data-name="Nautica Voyage"
+               data-size="100 ML"
+               data-type="Floral"
+               data-notes="Rose • Peony • Musk"
+               data-price="100$"
+               data-img="images/e93dfb14-3faa-485b-84d4-30b0685313c8.png"
+               data-desc="A soft floral bouquet with fresh rose and peony notes.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/e93dfb14-3faa-485b-84d4-30b0685313c8.png" alt="Nautica Voyage">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Nautica Voyage</h4>
+            <p class="product-meta">100 ML • Floral</p>
+            <p class="product-notes"><strong>Notes:</strong> Rose • Peony • Musk</p>
+            <p class="product-desc">
+              A soft floral bouquet with fresh rose and peony notes.
+            </p>
+            <p class="product-price">100$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p2">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3. Velvet Rose -->
+      <article class="product-card"
+               data-id="p3"
+               data-category="women"
+               data-name="Velvet Rose"
+               data-size="100 ML"
+               data-type="Rose • Floral"
+               data-notes="Rose • Patchouli • Musk"
+               data-price="19.8$"
+               data-img="images/632b259b-a30f-499f-862a-ab3882e349b6.png"
+               data-desc="A romantic rose-based fragrance with a soft and elegant trail.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/61vseD3ozML._SL1500_.jpg" alt="Velvet Rose">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Velvet Rose</h4>
+            <p class="product-meta">100 ML • Rose</p>
+            <p class="product-notes"><strong>Notes:</strong> Rose • Patchouli • Musk</p>
+            <p class="product-desc">
+              A romantic rose-based fragrance with a soft and elegant trail.
+            </p>
+            <p class="product-price">110 LYD</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p3">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4. Deep Ocean -->
+      <article class="product-card"
+               data-id="p4"
+               data-category="men"
+               data-name="Deep Ocean"
+               data-size="100 ML"
+               data-type="Fresh"
+               data-notes="Marine • Citrus • Woods"
+               data-price="120$"
+               data-img="images/c006be86-216b-4e5b-ba18-8378e73508a3.png"
+               data-desc="A fresh and clean marine fragrance inspired by the ocean breeze.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/fd34f045-a2f8-40fb-812b-f403beae1bd7.png" alt="Deep Ocean">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Deep Ocean</h4>
+            <p class="product-meta">100 ML • Fresh</p>
+            <p class="product-notes"><strong>Notes:</strong> Marine • Citrus • Woods</p>
+            <p class="product-desc">
+              A fresh and clean marine fragrance inspired by the ocean breeze.
+            </p>
+            <p class="product-price">$120</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p4">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5. Pure Fresh -->
+      <article class="product-card"
+               data-id="p5"
+               data-category="men"
+               data-name="Pure Fresh"
+               data-size="100 ML"
+               data-type="Fresh • Clean"
+               data-notes="Citrus • Green • Musk"
+               data-price="17,48$"
+               data-img="images/c23ab26b-3bc9-4b1d-a10d-7e17ef21f1e2.png"
+               data-desc="A clean, energetic scent ideal for daytime and casual wear.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/45a76bdd-a8d2-4188-8f4a-9c3f5e0536f4.png" alt="Pure Fresh">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Pure Fresh</h4>
+            <p class="product-meta">100 ML • Clean</p>
+            <p class="product-notes"><strong>Notes:</strong> Citrus • Green • Musk</p>
+            <p class="product-desc">
+              A clean, energetic scent ideal for daytime and casual wear.
+            </p>
+            <p class="product-price">95 LYD</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p5">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 6. Royal Oud -->
+      <article class="product-card"
+               data-id="p6"
+               data-category="women"
+               data-name="Royal Oud"
+               data-size="100 ML"
+               data-type="Oriental"
+               data-notes="Oud • Saffron • Smoke"
+               data-price="150$"
+               data-img="images/92ad94fb-9d77-4a9b-90e0-208a5cdafe12.png"
+               data-desc="A rich oriental oud fragrance with deep smoky and spicy notes.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/542ac4e1-2e52-47f1-afd5-7e13c9d6741d.png" alt="Royal Oud">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Royal Oud</h4>
+            <p class="product-meta">100 ML • Oriental</p>
+            <p class="product-notes"><strong>Notes:</strong> Oud • Saffron • Smoke</p>
+            <p class="product-desc">
+              A rich oriental oud fragrance with deep smoky and spicy notes.
+            </p>
+            <p class="product-price">$150</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p6">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 7. KAYALI Vanilla 28 -->
+      <article class="product-card"
+               data-id="p7"
+               data-category="women"
+               data-name="KAYALI Vanilla 28"
+               data-size="100 ML"
+               data-type="Oriental Vanilla"
+               data-notes="Vanilla • Brown Sugar • Amber"
+               data-price="118$"
+               data-img="images/vanilla28.png"
+               data-desc="A warm sweet vanilla fragrance with amber and brown sugar notes.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/31WTS0xLKEL.jpg" alt="KAYALI Vanilla 28">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">KAYALI Vanilla 28</h4>
+            <p class="product-meta">100 ML • Oriental Vanilla</p>
+            <p class="product-notes"><strong>Notes:</strong> Vanilla • Brown Sugar • Amber</p>
+            <p class="product-desc">
+              A warm sweet vanilla fragrance with amber and brown sugar notes.
+            </p>
+            <p class="product-price">118$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p7">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 8. Prada Paradoxe -->
+      <article class="product-card"
+               data-id="p8"
+               data-category="women"
+               data-name="Prada Paradoxe"
+               data-size="90 ML"
+               data-type="Floral Amber"
+               data-notes="Neroli • Amber • White Musk"
+               data-price="160$"
+               data-img="images/paradoxe.png"
+               data-desc="A modern floral-amber fragrance with soft musk and fresh neroli.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/prada.png" alt="Prada Paradoxe">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Prada Paradoxe</h4>
+            <p class="product-meta">90 ML • Floral Amber</p>
+            <p class="product-notes"><strong>Notes:</strong> Neroli • Amber • White Musk</p>
+            <p class="product-desc">
+              A modern floral-amber fragrance with soft musk and fresh neroli.
+            </p>
+            <p class="product-price">160$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p8">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 9. Prada Luna Rossa -->
+      <article class="product-card"
+               data-id="p9"
+               data-category="men"
+               data-name="Prada Luna Rossa"
+               data-size="100 ML"
+               data-type="Fresh Aromatic"
+               data-notes="Lavender • Mint • Ambrette"
+               data-price="110$"
+               data-img="images/lunarossa.png"
+               data-desc="A fresh aromatic men's fragrance with clean lavender, cool mint, and smooth ambrette.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/prada for men_.jpg" alt="Prada Luna Rossa">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Prada Luna Rossa</h4>
+            <p class="product-meta">100 ML • Fresh Aromatic</p>
+            <p class="product-notes"><strong>Notes:</strong> Lavender • Mint • Ambrette</p>
+            <p class="product-desc">
+              A fresh aromatic men's fragrance with clean lavender, cool mint, and smooth ambrette.
+            </p>
+            <p class="product-price">71.08$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p9">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 10. Tom Ford Black Orchid -->
+      <article class="product-card"
+               data-id="p10"
+               data-category="Women"
+               data-name="Tom Ford Black Orchid"
+               data-size="30 ML"
+               data-type="Oriental Floral"
+               data-notes="Truffle • Black Orchid • Patchouli • Vanilla"
+               data-price="180$"
+               data-img="images/black-orchid.png"
+               data-desc="A rich luxurious unisex fragrance with dark floral notes, earthy patchouli, and warm vanilla.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/black orced_.jpg" alt="Tom Ford Black Orchid">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Tom Ford Black Orchid</h4>
+            <p class="product-meta">30 ML • Oriental Floral</p>
+            <p class="product-notes"><strong>Notes:</strong> Truffle • Black Orchid • Patchouli • Vanilla</p>
+            <p class="product-desc">
+              A rich luxurious unisex fragrance with dark floral notes, earthy patchouli, and warm vanilla.
+            </p>
+            <p class="product-price">180$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p10">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 11. Dior Sauvage -->
+      <article class="product-card"
+               data-id="p11"
+               data-category="men"
+               data-name="Dior Sauvage"
+               data-size="100 ML"
+               data-type="Fresh Spicy"
+               data-notes="Bergamot • Pepper • Ambroxan"
+               data-price="150$"
+               data-img="images/sauvage.png"
+               data-desc="A fresh spicy men's fragrance with bright bergamot, sharp pepper, and strong ambroxan.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/sauvage.jpg" alt="Dior Sauvage">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Dior Sauvage</h4>
+            <p class="product-meta">100 ML • Fresh Spicy</p>
+            <p class="product-notes"><strong>Notes:</strong> Bergamot • Pepper • Ambroxan</p>
+            <p class="product-desc">
+              A fresh spicy men's fragrance with bright bergamot, sharp pepper, and strong ambroxan.
+            </p>
+            <p class="product-price">140.25$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p11">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 12. Emporio Armani Stronger With You -->
+      <article class="product-card"
+               data-id="p12"
+               data-category="men"
+               data-name="Emporio Armani Stronger With You"
+               data-size="100 ML"
+               data-type="Warm Spicy"
+               data-notes="Chestnut • Vanilla • Sage"
+               data-price="120$"
+               data-img="images/stronger-with-you.png"
+               data-desc="A warm sweet masculine fragrance with chestnut, vanilla, and aromatic sage.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/you man.png" alt="Emporio Armani Stronger With You">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Emporio Armani Stronger With You</h4>
+            <p class="product-meta">100 ML • Warm Spicy</p>
+            <p class="product-notes"><strong>Notes:</strong> Chestnut • Vanilla • Sage</p>
+            <p class="product-desc">
+              A warm sweet masculine fragrance with chestnut, vanilla, and aromatic sage.
+            </p>
+            <p class="product-price">120$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p12">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 13. Hugo Boss Bottled Infinite -->
+      <article class="product-card"
+               data-id="p13"
+               data-category="men"
+               data-name="Hugo Boss Bottled Infinite EDP"
+               data-size="100 ML"
+               data-type="Woody Aromatic"
+               data-notes="Apple • Patchouli • Lavender • Sandalwood"
+               data-price="110$"
+               data-img="images/boss-infinite.png"
+               data-desc="A woody aromatic men's fragrance with fresh apple, smooth sandalwood, calming lavender, and patchouli.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/61CHpDxSOiL._SL1500_.jpg" alt="Hugo Boss Bottled Infinite EDP">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Hugo Boss</h4>
+            <p class="product-meta">100 ML • Woody Aromatic</p>
+            <p class="product-notes"><strong>Notes:</strong> Apple • Patchouli • Lavender • Sandalwood</p>
+            <p class="product-desc">
+              A woody aromatic men's fragrance with fresh apple, smooth sandalwood, calming lavender, and patchouli.
+            </p>
+            <p class="product-price">110$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p13">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 14. Dior Homme Intense -->
+      <article class="product-card"
+               data-id="p14"
+               data-category="men"
+               data-name="Dior Homme Intense"
+               data-size="100 ML"
+               data-type="Woody Floral"
+               data-notes="Iris • Ambrette • Cedar"
+               data-price="165$"
+               data-img="images/dior-homme-intense.png"
+               data-desc="A sophisticated woody-floral men’s fragrance with creamy iris, warm ambrette, and elegant cedar.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/dior man.jpg" alt="Dior Homme Intense">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Dior Homme Intense</h4>
+            <p class="product-meta">100 ML • Woody Floral</p>
+            <p class="product-notes"><strong>Notes:</strong> Iris • Ambrette • Cedar</p>
+            <p class="product-desc">
+              A sophisticated woody-floral men’s fragrance with creamy iris, warm ambrette, and elegant cedar.
+            </p>
+            <p class="product-price">165$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p14">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 15. Chanel Allure Homme Sport -->
+      <article class="product-card"
+               data-id="p15"
+               data-category="men"
+               data-name="Chanel Allure Homme Sport"
+               data-size="100 ML"
+               data-type="Fresh Woody"
+               data-notes="Orange • Sea Notes • Pepper • Tonka Bean"
+               data-price="155$"
+               data-img="images/allure-homme-sport.png"
+               data-desc="A fresh woody men's fragrance with bright citrus, marine notes, spicy pepper, and smooth tonka bean.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/allure.jpg" alt="Chanel Allure Homme Sport">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Chanel Allure Homme Sport</h4>
+            <p class="product-meta">100 ML • Fresh Woody</p>
+            <p class="product-notes"><strong>Notes:</strong> Orange • Sea Notes • Pepper • Tonka Bean</p>
+            <p class="product-desc">
+              A fresh woody men's fragrance with bright citrus, marine notes, spicy pepper, and smooth tonka bean.
+            </p>
+            <p class="product-price">155$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p15">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 16. Lattafa Khamrah Qahwa -->
+      <article class="product-card"
+               data-id="p16"
+               data-category="Men"
+               data-name="Lattafa Khamrah Qahwa"
+               data-size="100 ML"
+               data-type="Warm Spicy Gourmand"
+               data-notes="Vanilla • Cinnamon • Coffee • Sweet Spices"
+               data-price="45$"
+               data-img="images/khamrah-qahwa.png"
+               data-desc="A warm gourmand unisex fragrance with rich coffee, creamy vanilla, cinnamon, and sweet spicy notes.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/komra_.jpg" alt="Lattafa Khamrah Qahwa">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Lattafa Khamrah Qahwa</h4>
+            <p class="product-meta">100 ML • Warm Spicy Gourmand</p>
+            <p class="product-notes"><strong>Notes:</strong> Vanilla • Cinnamon • Coffee • Sweet Spices</p>
+            <p class="product-desc">
+              A warm gourmand unisex fragrance with rich coffee, creamy vanilla, cinnamon, and sweet spicy notes.
+            </p>
+            <p class="product-price">24$</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p16">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 17. Miss Laverne -->
+      <article class="product-card"
+               data-id="p17"
+               data-category="hair mist"
+               data-name="Miss Laverne"
+               data-size="100 ML"
+               data-type="Floral Sweet"
+               data-notes="Rose • Vanilla • White Musk • Jasmine"
+               data-price="$60"
+               data-img="images/miss-laverne.png"
+               data-desc="A soft sweet floral fragrance with elegant rose, creamy vanilla, jasmine, and white musk.">
+        <div class="product-inner">
+          <div class="product-image-wrap">
+            <img src="images/b4d1eab2-ba28-4779-9d62-7fc26f6bc166.png" alt="Miss Laverne">
+          </div>
+          <div class="product-overlay">
+            <h4 class="product-title">Miss Laverne</h4>
+            <p class="product-meta">100 ML • Floral Sweet</p>
+            <p class="product-notes"><strong>Notes:</strong> Rose • Vanilla • White Musk • Jasmine</p>
+            <p class="product-desc">
+              A soft sweet floral fragrance with elegant rose, creamy vanilla, jasmine, and white musk.
+            </p>
+            <p class="product-price">$60</p>
+            <div class="product-actions card-actions">
+              <button type="button" class="btn add-to-cart" data-id="p17">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </article>
+ <!-- Xerjoff Alexandria II -->
+<article class="product-card"
+         data-id="xj-alex2"
+         data-category="hair mist"
+         data-brand="Xerjoff"
+         data-name="Alexandria II"
+         data-size="30 ML"
+         data-type="Oriental • Woody"
+         data-notes="Lavender • Apple • Cinnamon • Rosewood • Cedar • Sandalwood • Vanilla • Amber • Musk • Oud"
+         data-price="200$"
+         data-img="images/xerjoff-alexandria-II-30ml.jpg"
+         data-desc="A luxurious oriental-woody travel perfume with rich depth and elegant projection.">
+  <div class="product-inner">
+    <div class="product-image-wrap">
+      <img src="images\photo_2025-12-18_14-46-58.jpg" alt="Xerjoff Alexandria II">
+    </div>
+    <div class="product-overlay">
+      <h4 class="product-title">Xerjoff Alexandria II</h4>
+      <p class="product-meta">30 ML • Oriental • Woody</p>
+      <p class="product-notes">
+        <strong>Notes:</strong> Lavender • Apple • Cinnamon • Rosewood 
+      </p>
+      <p class="product-desc">
+        A luxurious oriental-woody travel perfume with refined sweetness and smooth oud, ideal for sophisticated evenings.
+      </p>
+      <p class="product-price">—</p>
+      <div class="product-actions card-actions">
+        <button type="button" class="btn add-to-cart" data-id="xj-alex2">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</article>
+<!-- KAILUNA Baby Powder -->
+<article class="product-card"
+         data-id="kailuna-baby"
+         data-category="hair mist"
+         data-brand="KAILUNA CO."
+         data-name="Baby Powder"
+         data-size="0.5 FL OZ"
+         data-type="Powdery • Floral"
+         data-notes="Baby Powder • Rose • Geranium • Musk"
+         data-price="18.99$"
+         data-img="images/kailuna-baby-powder.jpg"
+         data-desc="A comforting hair & body mist with soft powdery floral notes, perfect for everyday freshness.">
+  <div class="product-inner">
+    <div class="product-image-wrap">
+      <img src="images\81dKgG69jIL._SL1500_.jpg" alt="KAILUNA Baby Powder">
+    </div>
+    <div class="product-overlay">
+      <h4 class="product-title">KAILUNA Baby Powder</h4>
+      <p class="product-meta">0.5 FL OZ • Powdery • Floral</p>
+      <p class="product-notes"><strong>Notes:</strong> Baby Powder • Rose • Geranium • Musk</p>
+      <p class="product-desc">
+        A comforting hair & body mist with soft powdery floral notes, perfect for everyday freshness.
+      </p>
+      <p class="product-price">18.99$</p>
+      <div class="product-actions card-actions">
+        <button type="button" class="btn add-to-cart" data-id="kailuna-baby">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</article>
+<!-- Easywell Bellezza Elixir -->
+<article class="product-card"
+         data-id="easywell-bellezza"
+         data-category="hair mist"
+         data-brand="Easywell"
+         data-name="Bellezza Elixir Hair Perfume"
+         data-size="75 ML"
+         data-type="Citrus • Floral • Gourmand"
+         data-notes="Lemon • Marigold Blossom • Gourmand Accents"
+         data-price="26.00$"
+         data-img="images/easywell-bellezza-elixir.jpg"
+         data-desc="A festive hair perfume with airy shine and a blend of citrus and floral gourmand notes.">
+  <div class="product-inner">
+    <div class="product-image-wrap">
+      <img src="images\81GNmx93vmL._SL1500_.jpg" alt="Easywell Bellezza Elixir">
+    </div>
+    <div class="product-overlay">
+      <h4 class="product-title">Easywell Bellezza Elixir</h4>
+      <p class="product-meta">75 ML • Citrus • Floral • Gourmand</p>
+      <p class="product-notes"><strong>Notes:</strong> Lemon • Marigold Blossom • Gourmand Accents</p>
+      <p class="product-desc">
+        A festive hair perfume with airy shine and a blend of citrus and floral gourmand notes.
+      </p>
+      <p class="product-price">26.00$</p>
+      <div class="product-actions card-actions">
+        <button type="button" class="btn add-to-cart" data-id="easywell-bellezza">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact-page" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="contact-subtitle">We’re here to help you with anything you need</p>
+
+    <div class="contact-container">
+
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><i class="ri-mail-line"></i> fragranceshop@gmail.com</p>
+        <p><i class="ri-phone-line"></i> +218 91 000 0000</p>
+        <p><i class="ri-map-pin-line"></i> Tripoli, Libya</p>
+
+        <div class="contact-social">
+          <i class="ri-instagram-line"></i>
+          <i class="ri-facebook-line"></i>
+          <i class="ri-twitter-line"></i>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <h2>Send Us a Message</h2>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="social-icons">
+      <i class="ri-instagram-line"></i>
+      <i class="ri-facebook-line"></i>
+      <i class="ri-twitter-line"></i>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Fragrance Store. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
