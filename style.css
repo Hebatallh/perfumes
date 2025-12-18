@@ -139,7 +139,6 @@ nav {
   column-gap: 4rem;
 }
 
-
 .side-info {
   display: flex;
   flex-direction: column;
@@ -1211,5 +1210,6 @@ footer .footer-bottom {
     padding-right: 1.3rem;
   }
 }
+
 
 
