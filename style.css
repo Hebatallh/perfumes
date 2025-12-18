@@ -934,11 +934,12 @@ h3 {
 /* FOOTER */
 footer {
   padding: 3rem 4rem;
-  background: var(--btn-color);
-  color: var(--white);
+  background: var(--btn-color);   /* نفس لون الزرار */
+  color: var(--white);            /* لون النص */
   text-align: center;
 }
 
+/* أيقونات السوشيال */
 footer .social-icons {
   display: flex;
   justify-content: center;
@@ -947,9 +948,23 @@ footer .social-icons {
   margin-bottom: 1rem;
 }
 
+footer .social-icons i {
+  color: var(--white);            /* لون الأيقونات الأساسي */
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+/* لون عند المرور */
+footer .social-icons i:hover {
+  color: var(--accent-color, #ffd1dc); /* لو عندك متغيّر accent استعمليه، وإلا هذا وردي فاتح */
+}
+
+/* نص الحقوق */
 footer .footer-bottom {
   font-size: 0.9rem;
+  color: var(--white);            /* تأكيد على اللون */
 }
+
 
 /* ANIMATIONS */
 @keyframes slideDown {
@@ -1144,3 +1159,4 @@ footer .footer-bottom {
     padding-right: 1.3rem;
   }
 }
+
